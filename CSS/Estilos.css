@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap);
+h1{
+    text-align:center
+}
+h2{
+    text-align: center
+}
+.Container,body,html,p{
+    font-family:'Alegreya Sans',sans-serif
+}
+.Wrapper,p{
+    color:#000
+}
+.studio{
+    font-size:1.2em;
+    padding-top:10rem;
+    padding-bottom:10rem
+}
+.FondoPrincipalLeft{
+    background-image:url(../Imagenes/Principal1.webp)
+}
+.FondoJuridicaLeft{
+    background-image:url(../Imagenes/FormaJuridica3.jpg)
+}
+.FondoProduccionLeft{
+    background-image:url(../Imagenes/ProduccionRRHH1.jpg)
+}
+.FondoPrevencionLeft{
+    background-image:url(../Imagenes/Prevencion1.jpg)
+}
+.Wrapper,body{
+    background-color:#e9e8e6
+}
+.works{
+    font-size:1.2em;
+    padding-top:14rem;
+    padding-bottom:3rem
+}
+*,.LeftContent{
+    margin:0;
+    padding:0
+}
+.Container,body,html{
+    height:100%
+}
+.btn{
+    border-radius:0
+}
+a:hover,a:link,a:visited{
+    text-decoration:none;
+    color:#000
+}
+h1{
+    font-size:3.5rem
+}
+h2{
+    font-size:3rem
+}
+ul{text-align: justify
+}
+p{
+    font-size:1.2rem;
+    text-align:justify
+}
+.Container:before{
+    content:'';
+    height:100%;
+    float:left
+}
+.Content{
+    position:relative;
+    z-index:1
+}
+.Content:after{
+    content:'';
+    clear:both;
+    display:block
+}
+.Wrapper{
+    position:absolute;
+    width:100%;
+    height:100%
+}
+.LeftContent{
+    float:left
+}
+.RightContent{
+    overflow:auto
+}
+@media (min-width:1200px){
+    .Wrapper>div{
+        height:100%
+    }
+}
+.split-image-left{
+    background-size:none;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh
+}
+.split-image-right{
+    padding-top:10rem;
+    padding-bottom:10rem
+}
+:root{
+    --swiper-theme-color:#000
+}
+.dropdown-item:active{
+    color:#fff;
+    text-decoration:none;
+    text-transform:unset;
+    background-color:#ddd
+}
+.dropdown-item:focus,.dropdown-item:hover{
+    color:#16181b;
+    text-decoration:none;
+    background-color:#e9e8e6
+}
+.center{
+    align-content:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%
+}
+#DAFO{
+    width: 75%;
+    height: 25%
+}
